@@ -1,0 +1,16 @@
+Using Python
+read Amazon.html and parse it with beautifulsoup
+find all
+div with class="puis-card-container s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis puis-vbok7i09ua2q62ek5q2l21tt78 s-latency-cf-section puis-card-border"
+
+for all the div
+try find span with class="a-size-medium a-color-base a-text-normal" and store in Name
+except Name = ""
+try find span with class="a-price-whole" and store it in Price
+except Price = ""
+try find span with class="a-icon-alt" and store it in Reviews
+except Review = ""
+try find div with class="s-product-image-container aok-relative s-text-center s-image-overlay-grey puis-image-overlay-grey s-padding-left-small s-padding-right-small puis-flex-expand-height puis puis-vbok7i09ua2q62ek5q2l21tt78" and store it in Image
+except Image = ""
+JOIN SQL SERVER Management Studio and write Names, Prices, Reviews, Image in it
+
